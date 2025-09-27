@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 290,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 13,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 275,
+                        "errorMessage": "",
+                        "functionName": "onSourceChanged",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 136,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 11
+                    }
+                ],
+                "filePath": "C:/Users/javad/Documents/QT/untitled/Buttons.qml"
+            }
+        ],
+        "moduleId": "untitled(appuntitled)"
+    }
+]

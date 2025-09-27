@@ -1,0 +1,140 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 13,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 292,
+                        "errorMessage": "Cannot access value for name rootId",
+                        "functionName": "width",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 159,
+                        "errorMessage": "Cannot access value for name rootId",
+                        "functionName": "height",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 81,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 199,
+                        "errorMessage": "Cannot access value for name rootId",
+                        "functionName": "width",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 178,
+                        "errorMessage": "Cannot access value for name rootId",
+                        "functionName": "height",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "Cannot load property source from (component in C:/Users/javad/Documents/QT/untitled/Poly_button.qml)::parent with type QQuickItem.",
+                        "functionName": "onClicked",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "Cannot load property source from (component in C:/Users/javad/Documents/QT/untitled/Poly_button.qml)::parent with type QQuickItem.",
+                        "functionName": "onEntered",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "Cannot load property source from (component in C:/Users/javad/Documents/QT/untitled/Poly_button.qml)::parent with type QQuickItem.",
+                        "functionName": "onExited",
+                        "line": 58
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 78
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 427,
+                        "errorMessage": "Cannot access value for name rootId",
+                        "functionName": "pixelSize",
+                        "line": 80
+                    }
+                ],
+                "filePath": "C:/Users/javad/Documents/QT/untitled/Poly_button.qml"
+            }
+        ],
+        "moduleId": "untitled(appuntitled)"
+    }
+]

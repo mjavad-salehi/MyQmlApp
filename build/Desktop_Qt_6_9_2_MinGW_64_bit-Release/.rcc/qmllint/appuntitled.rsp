@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release
+-I
+C:/Qt/6.9.2/mingw_64/qml
+--resource
+C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qmake_untitled.qrc
+--resource
+C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/appuntitled_raw_qml_0.qrc
+C:/Users/javad/Documents/QT/untitled/Main.qml
+C:/Users/javad/Documents/QT/untitled/Poly_button.qml
+C:/Users/javad/Documents/QT/untitled/Buttons.qml

@@ -1,0 +1,8 @@
+module untitled
+typeinfo appuntitled.qmltypes
+prefer :/untitled/
+Main 1.0 Main.qml
+Poly_button 1.0 Poly_button.qml
+Buttons 1.0 Buttons.qml
+depends QtQuick
+
