@@ -10,7 +10,7 @@ Window {
     width: 1582
     height: 844
     visible: true
-    title: qsTr("QML first try")
+    title: qsTr("My QML Application")
 
     property real aspectRatio: 1582/844
 
