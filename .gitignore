@@ -1,0 +1,68 @@
+# -------------------------
+# Qt / C++ build artifacts
+# -------------------------
+build-*/
+*.qmake.stash
+*.qmake.cache
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# moc, uic, rcc generated files
+moc_*
+ui_*
+qrc_*
+
+# Object / library files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+*.pdb
+*.idb
+*.ilk
+*.exp
+
+# Executables
+*.exe
+*.out
+*.app
+
+# -------------------------
+# CMake
+# -------------------------
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# -------------------------
+# Logs and misc
+# -------------------------
+*.log
+
+# -------------------------
+# IDE / Editor stuff
+# -------------------------
+# Qt Creator
+*.user
+*.user.*
+
+# Visual Studio Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# -------------------------
+# Windows-specific
+# -------------------------
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
