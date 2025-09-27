@@ -35,7 +35,7 @@ Window {
     }
     Image {
         id: bgImg
-        source: "file:///C:/Users/javad/Desktop/src/V4-01 - body.jpg"
+        source: "src/images/bgImg.jpg"
         x: 0
         y: 0
         width: rootId.width

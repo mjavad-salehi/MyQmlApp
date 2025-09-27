@@ -69,6 +69,7 @@ CMakeFiles/appuntitled_copy_res: .qt/appuntitled_res.txt
 
 .qt/appuntitled_res.txt: C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/appuntitled_res.txt: C:/Users/javad/Documents/QT/untitled/src/images/right\ panel.png
+.qt/appuntitled_res.txt: C:/Users/javad/Documents/QT/untitled/src/images/bgImg.jpg
 .qt/appuntitled_res.txt: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-clicked.svg
 .qt/appuntitled_res.txt: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-default.svg
 .qt/appuntitled_res.txt: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-hover.svg

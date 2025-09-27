@@ -7705,3 +7705,177 @@ events:
         - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
         - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:297 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    name: "Vulkan"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "C:/Program Files/CMake/share/cmake-4.1/Modules/FindVulkan.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Qt/6.9.2/mingw_64"
+      ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "c:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\WireSock VPN Client\\bin\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "c:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\javad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/untitled"
+      CMAKE_MODULE_PATH:
+        - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6"
+        - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:297 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    name: "WrapVulkanHeaders"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "dependency_provider::qt_maintenance_tool_dependency"
+        mode: "provider"
+        reason: "not_found"
+      -
+        path: "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+        mode: "module"
+        reason: "not_found"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Qt/6.9.2/mingw_64"
+      ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "c:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\WireSock VPN Client\\bin\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "c:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\javad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\javad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\javad\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/untitled"
+      CMAKE_MODULE_PATH:
+        - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6"
+        - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "C:/Qt/6.9.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+...

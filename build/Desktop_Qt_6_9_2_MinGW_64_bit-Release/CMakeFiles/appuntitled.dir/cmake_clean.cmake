@@ -1,13 +1,4 @@
 file(REMOVE_RECURSE
-  ".qt/rcc/qrc_appuntitled_raw_qml_0.cpp"
-  ".qt/rcc/qrc_qmake_untitled.cpp"
-  ".rcc/qmlcache/appuntitled_Buttons_qml.cpp"
-  ".rcc/qmlcache/appuntitled_Buttons_qml.cpp.aotstats"
-  ".rcc/qmlcache/appuntitled_Main_qml.cpp"
-  ".rcc/qmlcache/appuntitled_Main_qml.cpp.aotstats"
-  ".rcc/qmlcache/appuntitled_Poly_button_qml.cpp"
-  ".rcc/qmlcache/appuntitled_Poly_button_qml.cpp.aotstats"
-  ".rcc/qmlcache/appuntitled_qmlcache_loader.cpp"
   "CMakeFiles/appuntitled_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/appuntitled_autogen.dir/ParseCache.txt"
   "appuntitled_autogen"
@@ -32,15 +23,7 @@ file(REMOVE_RECURSE
   "appuntitled.exe"
   "appuntitled.exe.manifest"
   "appuntitled.pdb"
-  "appuntitled_autogen/mocs_compilation.cpp"
-  "appuntitled_autogen/timestamp"
-  "appuntitled_qmltyperegistrations.cpp"
   "libappuntitled.dll.a"
-  "meta_types/appuntitled_json_file_list.txt"
-  "meta_types/appuntitled_json_file_list.txt.timestamp"
-  "meta_types/qt6appuntitled_release_metatypes.json"
-  "meta_types/qt6appuntitled_release_metatypes.json.gen"
-  "untitled/appuntitled.qmltypes"
 )
 
 # Per-language clean rules from dependency scanning.

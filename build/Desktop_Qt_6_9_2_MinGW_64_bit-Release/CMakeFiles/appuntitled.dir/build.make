@@ -68,132 +68,6 @@ include CMakeFiles/appuntitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/appuntitled.dir/flags.make
 
-meta_types/qt6appuntitled_release_metatypes.json.gen: C:/Qt/6.9.2/mingw_64/bin/moc.exe
-meta_types/qt6appuntitled_release_metatypes.json.gen: meta_types/appuntitled_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target appuntitled"
-	C:\Qt\6.9.2\mingw_64\bin\moc.exe -o C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/meta_types/qt6appuntitled_release_metatypes.json.gen --collect-json @C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/meta_types/appuntitled_json_file_list.txt
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/meta_types/qt6appuntitled_release_metatypes.json.gen C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/meta_types/qt6appuntitled_release_metatypes.json
-
-appuntitled_qmltyperegistrations.cpp: qmltypes/appuntitled_foreign_types.txt
-appuntitled_qmltyperegistrations.cpp: meta_types/qt6appuntitled_release_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/bin/qmltyperegistrar.exe
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6core_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6qml_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6network_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6quick_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6gui_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6qmlmeta_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json
-appuntitled_qmltyperegistrations.cpp: C:/Qt/6.9.2/mingw_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target appuntitled"
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.9.2/mingw_64/bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/untitled/appuntitled.qmltypes --import-name=untitled --major-version=1 --minor-version=0 @C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/qmltypes/appuntitled_foreign_types.txt -o C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/appuntitled_qmltyperegistrations.cpp C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/meta_types/qt6appuntitled_release_metatypes.json
-	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/qmltypes
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/qmltypes/appuntitled.qmltypes
-
-untitled/appuntitled.qmltypes: appuntitled_qmltyperegistrations.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate untitled\appuntitled.qmltypes
-
-.qt/rcc/qrc_qmake_untitled.cpp: untitled/qmldir
-.qt/rcc/qrc_qmake_untitled.cpp: .qt/rcc/qmake_untitled.qrc
-.qt/rcc/qrc_qmake_untitled.cpp: C:/Qt/6.9.2/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_untitled"
-	C:\Qt\6.9.2\mingw_64\bin\rcc.exe --output C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp --name qmake_untitled C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qmake_untitled.qrc --no-zstd
-
-.rcc/qmlcache/appuntitled_qmlcache_loader.cpp: C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/appuntitled_qmlcache_loader.cpp: .rcc/qmlcache/appuntitled_qml_loader_file_list.rsp
-.rcc/qmlcache/appuntitled_qmlcache_loader.cpp: .qt/rcc/qmake_untitled.qrc
-.rcc/qmlcache/appuntitled_qmlcache_loader.cpp: .qt/rcc/appuntitled_raw_qml_0.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appuntitled_qmlcache_loader.cpp"
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe --resource-name qmlcache_appuntitled -o C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp @C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qml_loader_file_list.rsp
-
-.rcc/qmlcache/appuntitled_Main_qml.cpp: C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/appuntitled_Main_qml.cpp: C:/Users/javad/Documents/QT/untitled/Main.qml
-.rcc/qmlcache/appuntitled_Main_qml.cpp: .qt/rcc/qmake_untitled.qrc
-.rcc/qmlcache/appuntitled_Main_qml.cpp: .qt/rcc/appuntitled_raw_qml_0.qrc
-.rcc/qmlcache/appuntitled_Main_qml.cpp: untitled/appuntitled.qmltypes
-.rcc/qmlcache/appuntitled_Main_qml.cpp: untitled/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appuntitled_Main_qml.cpp, .rcc/qmlcache/appuntitled_Main_qml.cpp.aotstats"
-	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe --bare --resource-path /untitled/Main.qml -I C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release -I C:/Qt/6.9.2/mingw_64/qml -i C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/untitled/qmldir --resource C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qmake_untitled.qrc --resource C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/appuntitled_raw_qml_0.qrc --dump-aot-stats --module-id=untitled(appuntitled) -o C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp C:/Users/javad/Documents/QT/untitled/Main.qml
-
-.rcc/qmlcache/appuntitled_Main_qml.cpp.aotstats: .rcc/qmlcache/appuntitled_Main_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appuntitled_Main_qml.cpp.aotstats
-
-.rcc/qmlcache/appuntitled_Poly_button_qml.cpp: C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/appuntitled_Poly_button_qml.cpp: C:/Users/javad/Documents/QT/untitled/Poly_button.qml
-.rcc/qmlcache/appuntitled_Poly_button_qml.cpp: .qt/rcc/qmake_untitled.qrc
-.rcc/qmlcache/appuntitled_Poly_button_qml.cpp: .qt/rcc/appuntitled_raw_qml_0.qrc
-.rcc/qmlcache/appuntitled_Poly_button_qml.cpp: untitled/appuntitled.qmltypes
-.rcc/qmlcache/appuntitled_Poly_button_qml.cpp: untitled/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appuntitled_Poly_button_qml.cpp, .rcc/qmlcache/appuntitled_Poly_button_qml.cpp.aotstats"
-	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe --bare --resource-path /untitled/Poly_button.qml -I C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release -I C:/Qt/6.9.2/mingw_64/qml -i C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/untitled/qmldir --resource C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qmake_untitled.qrc --resource C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/appuntitled_raw_qml_0.qrc --dump-aot-stats --module-id=untitled(appuntitled) -o C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp C:/Users/javad/Documents/QT/untitled/Poly_button.qml
-
-.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.aotstats: .rcc/qmlcache/appuntitled_Poly_button_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appuntitled_Poly_button_qml.cpp.aotstats
-
-.rcc/qmlcache/appuntitled_Buttons_qml.cpp: C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe
-.rcc/qmlcache/appuntitled_Buttons_qml.cpp: C:/Users/javad/Documents/QT/untitled/Buttons.qml
-.rcc/qmlcache/appuntitled_Buttons_qml.cpp: .qt/rcc/qmake_untitled.qrc
-.rcc/qmlcache/appuntitled_Buttons_qml.cpp: .qt/rcc/appuntitled_raw_qml_0.qrc
-.rcc/qmlcache/appuntitled_Buttons_qml.cpp: untitled/appuntitled.qmltypes
-.rcc/qmlcache/appuntitled_Buttons_qml.cpp: untitled/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appuntitled_Buttons_qml.cpp, .rcc/qmlcache/appuntitled_Buttons_qml.cpp.aotstats"
-	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.9.2/mingw_64/bin/qmlcachegen.exe --bare --resource-path /untitled/Buttons.qml -I C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release -I C:/Qt/6.9.2/mingw_64/qml -i C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/untitled/qmldir --resource C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qmake_untitled.qrc --resource C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/appuntitled_raw_qml_0.qrc --dump-aot-stats --module-id=untitled(appuntitled) -o C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp C:/Users/javad/Documents/QT/untitled/Buttons.qml
-
-.rcc/qmlcache/appuntitled_Buttons_qml.cpp.aotstats: .rcc/qmlcache/appuntitled_Buttons_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appuntitled_Buttons_qml.cpp.aotstats
-
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/Main.qml
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/Poly_button.qml
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/Buttons.qml
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/images/right\ panel.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-clicked.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-default.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-hover.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-lg-clicked.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-lg-default.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-lg-hover.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-md-clicked.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-md-default.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-md-hover.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-sm-clicked.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-sm-default.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-sm-hover.svg
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-clicked.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-default.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-hover.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-lg-clicked.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-lg-default.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-lg-hover.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-md-clicked.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-md-default.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-md-hover.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-sm-clicked.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-sm-default.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Users/javad/Documents/QT/untitled/src/buttons/button-sm-hover.png
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: .qt/rcc/appuntitled_raw_qml_0.qrc
-.qt/rcc/qrc_appuntitled_raw_qml_0.cpp: C:/Qt/6.9.2/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running rcc for resource appuntitled_raw_qml_0"
-	C:\Qt\6.9.2\mingw_64\bin\rcc.exe --output C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp --name appuntitled_raw_qml_0 C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/appuntitled_raw_qml_0.qrc --no-zstd
-
-appuntitled_autogen/timestamp: C:/Qt/6.9.2/mingw_64/bin/moc.exe
-appuntitled_autogen/timestamp: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Automatic MOC and UIC for target appuntitled"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/CMakeFiles/appuntitled_autogen.dir/AutogenInfo.json Release
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/appuntitled_autogen/timestamp
-
-meta_types/appuntitled_json_file_list.txt: C:/Qt/6.9.2/mingw_64/bin/cmake_automoc_parser.exe
-meta_types/appuntitled_json_file_list.txt: appuntitled_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running AUTOMOC file extraction for target appuntitled"
-	C:\Qt\6.9.2\mingw_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/CMakeFiles/appuntitled_autogen.dir/ParseCache.txt --cmake-autogen-info-file C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/CMakeFiles/appuntitled_autogen.dir/AutogenInfo.json --output-file-path C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/meta_types/appuntitled_json_file_list.txt --timestamp-file-path C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/meta_types/appuntitled_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/appuntitled_autogen/include
-
-meta_types/qt6appuntitled_release_metatypes.json: meta_types/qt6appuntitled_release_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating meta_types/qt6appuntitled_release_metatypes.json"
-	"C:\Program Files\CMake\bin\cmake.exe" -E true
-
 CMakeFiles/appuntitled.dir/codegen:
 .PHONY : CMakeFiles/appuntitled.dir/codegen
 
@@ -201,7 +75,7 @@ CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.obj: CMakeFi
 CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.obj: appuntitled_autogen/mocs_compilation.cpp
 CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\appuntitled.dir\appuntitled_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\appuntitled.dir\appuntitled_autogen\mocs_compilation.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\appuntitled_autogen\mocs_compilation.cpp
 
 CMakeFiles/appuntitled.dir/appuntitled_autogen/mocs_compilation.cpp.i: cmake_force
@@ -216,7 +90,7 @@ CMakeFiles/appuntitled.dir/main.cpp.obj: CMakeFiles/appuntitled.dir/flags.make
 CMakeFiles/appuntitled.dir/main.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/main.cpp.obj: C:/Users/javad/Documents/QT/untitled/main.cpp
 CMakeFiles/appuntitled.dir/main.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appuntitled.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/appuntitled.dir/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/main.cpp.obj -MF CMakeFiles\appuntitled.dir\main.cpp.obj.d -o CMakeFiles\appuntitled.dir\main.cpp.obj -c C:\Users\javad\Documents\QT\untitled\main.cpp
 
 CMakeFiles/appuntitled.dir/main.cpp.i: cmake_force
@@ -231,7 +105,7 @@ CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.obj: CMakeFiles/
 CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.obj: appuntitled_qmltyperegistrations.cpp
 CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.obj -MF CMakeFiles\appuntitled.dir\appuntitled_qmltyperegistrations.cpp.obj.d -o CMakeFiles\appuntitled.dir\appuntitled_qmltyperegistrations.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\appuntitled_qmltyperegistrations.cpp
 
 CMakeFiles/appuntitled.dir/appuntitled_qmltyperegistrations.cpp.i: cmake_force
@@ -246,7 +120,7 @@ CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/q
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp.obj: .qt/rcc/qrc_qmake_untitled.cpp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp.obj -MF CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.qt\rcc\qrc_qmake_untitled.cpp.obj.d -o CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.qt\rcc\qrc_qmake_untitled.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.qt\rcc\qrc_qmake_untitled.cpp
 
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_qmake_untitled.cpp.i: cmake_force
@@ -261,7 +135,7 @@ CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlc
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp.obj: .rcc/qmlcache/appuntitled_qmlcache_loader.cpp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp.obj -MF CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_qmlcache_loader.cpp.obj.d -o CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_qmlcache_loader.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_qmlcache_loader.cpp
 
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_qmlcache_loader.cpp.i: cmake_force
@@ -276,7 +150,7 @@ CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlc
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp.obj: .rcc/qmlcache/appuntitled_Main_qml.cpp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp.obj -MF CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Main_qml.cpp.obj.d -o CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Main_qml.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Main_qml.cpp
 
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Main_qml.cpp.i: cmake_force
@@ -291,7 +165,7 @@ CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlc
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.obj: .rcc/qmlcache/appuntitled_Poly_button_qml.cpp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.obj -MF CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Poly_button_qml.cpp.obj.d -o CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Poly_button_qml.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Poly_button_qml.cpp
 
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Poly_button_qml.cpp.i: cmake_force
@@ -306,7 +180,7 @@ CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlc
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp.obj: .rcc/qmlcache/appuntitled_Buttons_qml.cpp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp.obj -MF CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Buttons_qml.cpp.obj.d -o CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Buttons_qml.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.rcc\qmlcache\appuntitled_Buttons_qml.cpp
 
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.rcc/qmlcache/appuntitled_Buttons_qml.cpp.i: cmake_force
@@ -321,7 +195,7 @@ CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/q
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp.obj: CMakeFiles/appuntitled.dir/includes_CXX.rsp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp.obj: .qt/rcc/qrc_appuntitled_raw_qml_0.cpp
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp.obj: CMakeFiles/appuntitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp.obj -MF CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.qt\rcc\qrc_appuntitled_raw_qml_0.cpp.obj.d -o CMakeFiles\appuntitled.dir\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.qt\rcc\qrc_appuntitled_raw_qml_0.cpp.obj -c C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\.qt\rcc\qrc_appuntitled_raw_qml_0.cpp
 
 CMakeFiles/appuntitled.dir/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/.qt/rcc/qrc_appuntitled_raw_qml_0.cpp.i: cmake_force
@@ -370,7 +244,7 @@ appuntitled.exe: C:/Qt/6.9.2/mingw_64/lib/libQt6EntryPoint.a
 appuntitled.exe: CMakeFiles/appuntitled.dir/linkLibs.rsp
 appuntitled.exe: CMakeFiles/appuntitled.dir/objects1.rsp
 appuntitled.exe: CMakeFiles/appuntitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable appuntitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable appuntitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appuntitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -381,21 +255,7 @@ CMakeFiles/appuntitled.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\appuntitled.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/appuntitled.dir/clean
 
-CMakeFiles/appuntitled.dir/depend: .qt/rcc/qrc_appuntitled_raw_qml_0.cpp
-CMakeFiles/appuntitled.dir/depend: .qt/rcc/qrc_qmake_untitled.cpp
-CMakeFiles/appuntitled.dir/depend: .rcc/qmlcache/appuntitled_Buttons_qml.cpp
-CMakeFiles/appuntitled.dir/depend: .rcc/qmlcache/appuntitled_Buttons_qml.cpp.aotstats
-CMakeFiles/appuntitled.dir/depend: .rcc/qmlcache/appuntitled_Main_qml.cpp
-CMakeFiles/appuntitled.dir/depend: .rcc/qmlcache/appuntitled_Main_qml.cpp.aotstats
-CMakeFiles/appuntitled.dir/depend: .rcc/qmlcache/appuntitled_Poly_button_qml.cpp
-CMakeFiles/appuntitled.dir/depend: .rcc/qmlcache/appuntitled_Poly_button_qml.cpp.aotstats
-CMakeFiles/appuntitled.dir/depend: .rcc/qmlcache/appuntitled_qmlcache_loader.cpp
-CMakeFiles/appuntitled.dir/depend: appuntitled_autogen/timestamp
-CMakeFiles/appuntitled.dir/depend: appuntitled_qmltyperegistrations.cpp
-CMakeFiles/appuntitled.dir/depend: meta_types/appuntitled_json_file_list.txt
-CMakeFiles/appuntitled.dir/depend: meta_types/qt6appuntitled_release_metatypes.json
-CMakeFiles/appuntitled.dir/depend: meta_types/qt6appuntitled_release_metatypes.json.gen
-CMakeFiles/appuntitled.dir/depend: untitled/appuntitled.qmltypes
+CMakeFiles/appuntitled.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\javad\Documents\QT\untitled C:\Users\javad\Documents\QT\untitled C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release C:\Users\javad\Documents\QT\untitled\build\Desktop_Qt_6_9_2_MinGW_64_bit-Release\CMakeFiles\appuntitled.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/appuntitled.dir/depend
 

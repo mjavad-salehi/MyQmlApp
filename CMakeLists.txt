@@ -19,6 +19,7 @@ qt_add_qml_module(appuntitled
         Main.qml
     RESOURCES
         "src/images/right panel.png"
+        "src/images/bgImg.jpg"
         #buttons
         "src/buttons/button-icon-clicked.svg"
         "src/buttons/button-icon-default.svg"

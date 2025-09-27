@@ -4,6 +4,8 @@ set(working_dir "C:/Users/javad/Documents/QT/untitled")
 set(src_and_dest_list
     "C:/Users/javad/Documents/QT/untitled/src/images/right panel.png"
     "C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/untitled/src/images/right panel.png"
+    "C:/Users/javad/Documents/QT/untitled/src/images/bgImg.jpg"
+    "C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/untitled/src/images/bgImg.jpg"
     "C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-clicked.svg"
     "C:/Users/javad/Documents/QT/untitled/build/Desktop_Qt_6_9_2_MinGW_64_bit-Release/untitled/src/buttons/button-icon-clicked.svg"
     "C:/Users/javad/Documents/QT/untitled/src/buttons/button-icon-default.svg"
