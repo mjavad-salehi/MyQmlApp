@@ -170,7 +170,6 @@ Window {
             }*/
         }
 
-
         Image {
             id: rightpanle
             source: "src/images/right panel.png"

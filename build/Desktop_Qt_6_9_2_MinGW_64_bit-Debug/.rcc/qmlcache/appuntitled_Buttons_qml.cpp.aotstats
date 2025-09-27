@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 338,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 13,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 603,
+                        "errorMessage": "",
+                        "functionName": "onSourceChanged",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 168,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 11
+                    }
+                ],
+                "filePath": "C:/Users/javad/MyQmlApp/Buttons.qml"
+            }
+        ],
+        "moduleId": "untitled(appuntitled)"
+    }
+]

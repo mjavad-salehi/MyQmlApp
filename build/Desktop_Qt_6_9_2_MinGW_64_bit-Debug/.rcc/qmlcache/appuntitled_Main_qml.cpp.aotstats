@@ -1,0 +1,340 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 269,
+                        "errorMessage": "",
+                        "functionName": "aspectRatio",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 601,
+                        "errorMessage": "",
+                        "functionName": "onWidthChanged",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 471,
+                        "errorMessage": "",
+                        "functionName": "onHeightChanged",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "fonts",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "onEsmChanged",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "",
+                        "functionName": "onDestruction",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 111,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 185,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 267,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 252,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 269,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 80
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 162,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 81
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 88
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 203,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 218,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 99
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 100
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 48,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "",
+                        "functionName": "onTextChanged",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "cannot convert from (component in C:/Users/javad/MyQmlApp/Main.qml)::parent with type QQuickItem to QQuickAnchorLine",
+                        "functionName": "top",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 404,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 180,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 190,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 208,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 131
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 345,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 236,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 542,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 137
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 51,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 138
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 189,
+                        "errorMessage": "",
+                        "functionName": "onButtonclick",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 167,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 176
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 333,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 177
+                    }
+                ],
+                "filePath": "C:/Users/javad/MyQmlApp/Main.qml"
+            }
+        ],
+        "moduleId": "untitled(appuntitled)"
+    }
+]
