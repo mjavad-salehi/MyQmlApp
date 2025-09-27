@@ -154,6 +154,8 @@ Window {
                 }
             }
 
+            
+
 
             /*Column{
                 spacing: 1//insiderec2.width*0.10
