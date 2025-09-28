@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 338,
+                        "durationMicroseconds": 3351,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 6
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 13,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 7
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 603,
+                        "durationMicroseconds": 454,
                         "errorMessage": "",
                         "functionName": "onSourceChanged",
                         "line": 12
@@ -30,13 +30,13 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 168,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 11
                     }
                 ],
-                "filePath": "C:/Users/javad/MyQmlApp/Buttons.qml"
+                "filePath": "C:/Users/javad/Documents/QT/MyQmlApp/Buttons.qml"
             }
         ],
         "moduleId": "untitled(appuntitled)"

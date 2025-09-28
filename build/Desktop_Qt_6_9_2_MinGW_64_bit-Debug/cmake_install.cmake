@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/javad/MyQmlApp
+# Install script for directory: C:/Users/javad/Documents/QT/MyQmlApp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/javad/MyQmlApp/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/javad/Documents/QT/MyQmlApp/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/appuntitled.exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appuntitled.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appuntitled.exe")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -50,7 +50,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/javad/MyQmlApp/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/install_local_manifest.txt"
+  file(WRITE "C:/Users/javad/Documents/QT/MyQmlApp/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -66,6 +66,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/javad/MyQmlApp/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/javad/Documents/QT/MyQmlApp/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

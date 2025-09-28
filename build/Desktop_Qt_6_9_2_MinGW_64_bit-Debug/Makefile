@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\javad\MyQmlApp
+CMAKE_SOURCE_DIR = C:\Users\javad\Documents\QT\MyQmlApp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\javad\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\javad\Documents\QT\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\javad\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug\CMakeFiles C:\Users\javad\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\javad\Documents\QT\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug\CMakeFiles C:\Users\javad\Documents\QT\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\javad\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\javad\Documents\QT\MyQmlApp\build\Desktop_Qt_6_9_2_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

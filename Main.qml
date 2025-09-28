@@ -145,7 +145,7 @@ Window {
                                 Poly_button{id:button3
                                     buttontext:"Element 3"
                                     onButtonclick:
-                                    {console.log("Element 3 Clicked")}
+                                    {console.log("Element 3 Clicked!")}
                                 }
 
                             }

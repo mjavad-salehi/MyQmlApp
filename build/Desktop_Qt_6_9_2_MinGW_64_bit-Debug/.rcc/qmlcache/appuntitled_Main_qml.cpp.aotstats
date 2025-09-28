@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 275,
+                        "durationMicroseconds": 216,
                         "errorMessage": "",
                         "functionName": "aspectRatio",
                         "line": 15
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 493,
+                        "durationMicroseconds": 1137,
                         "errorMessage": "",
                         "functionName": "onWidthChanged",
                         "line": 17
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 492,
+                        "durationMicroseconds": 443,
                         "errorMessage": "",
                         "functionName": "onHeightChanged",
                         "line": 23
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 125,
                         "errorMessage": "",
                         "functionName": "fonts",
                         "line": 31
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 19,
-                        "durationMicroseconds": 141,
+                        "durationMicroseconds": 142,
                         "errorMessage": "",
                         "functionName": "onEsmChanged",
                         "line": 33
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 122,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
                         "functionName": "onCompleted",
                         "line": 7
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 141,
                         "errorMessage": "",
                         "functionName": "onDestruction",
                         "line": 8
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 41
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 42
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 43
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 700,
                         "errorMessage": "",
                         "functionName": "spacing",
                         "line": 48
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 47
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 146,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 56
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 337,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 57
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 413,
+                        "durationMicroseconds": 251,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 60
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 264,
+                        "durationMicroseconds": 196,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 61
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 63
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 70
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 41,
-                        "durationMicroseconds": 242,
+                        "durationMicroseconds": 224,
                         "errorMessage": "",
                         "functionName": "pixelSize",
                         "line": 71
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 42,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 80
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 141,
+                        "durationMicroseconds": 136,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 88
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 258,
+                        "durationMicroseconds": 256,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 91
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 180,
+                        "durationMicroseconds": 177,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 92
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 40,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 105,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 99
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 41,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 96,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 100
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 48,
-                        "durationMicroseconds": 181,
+                        "durationMicroseconds": 162,
                         "errorMessage": "",
                         "functionName": "onTextChanged",
                         "line": 110
@@ -230,15 +230,15 @@
                     {
                         "codegenSuccessful": false,
                         "column": 47,
-                        "durationMicroseconds": 34,
-                        "errorMessage": "cannot convert from (component in C:/Users/javad/MyQmlApp/Main.qml)::parent with type QQuickItem to QQuickAnchorLine",
+                        "durationMicroseconds": 32,
+                        "errorMessage": "cannot convert from (component in C:/Users/javad/Documents/QT/MyQmlApp/Main.qml)::parent with type QQuickItem to QQuickAnchorLine",
                         "functionName": "top",
                         "line": 102
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 49,
-                        "durationMicroseconds": 151,
+                        "durationMicroseconds": 146,
                         "errorMessage": "",
                         "functionName": "pixelSize",
                         "line": 103
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 42,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 123
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 151,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 130
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 138,
+                        "durationMicroseconds": 157,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 131
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 278,
+                        "durationMicroseconds": 265,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 134
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 173,
+                        "durationMicroseconds": 181,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
                         "line": 135
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 42,
-                        "durationMicroseconds": 111,
+                        "durationMicroseconds": 112,
                         "errorMessage": "",
                         "functionName": "spacing",
                         "line": 137
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 51,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 51,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 138
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 200,
                         "errorMessage": "",
                         "functionName": "onButtonclick",
                         "line": 148
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 119,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 177
@@ -326,13 +326,13 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 104,
+                        "durationMicroseconds": 102,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 178
                     }
                 ],
-                "filePath": "C:/Users/javad/MyQmlApp/Main.qml"
+                "filePath": "C:/Users/javad/Documents/QT/MyQmlApp/Main.qml"
             }
         ],
         "moduleId": "untitled(appuntitled)"
